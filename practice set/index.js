@@ -4,8 +4,6 @@ function reverse(){
     let b=a.toString().split("").reverse().join("");
 if(b.endsWith("-")){
     b="-"+parseInt(b);
-
-
 }
-    alert(b);
+    alert("the reverse no is "+b);
 }
