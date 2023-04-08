@@ -14,4 +14,12 @@ let c =true;//b=Boolian
 let e ="harry";//s=string
 let f =Symbol("my name is kartik");//s=symbol
 let g;//u=undefined
-console.log(typeof a+" " + typeof b+" " + typeof c+" " + typeof d+" " + typeof e+" "+ typeof f+" " + typeof g)
+console.log(typeof a+" " + typeof b+" " + typeof c+" " + typeof d+" " + typeof e+" "+ typeof f+" " + typeof g);
+
+//non primitive / object in js 
+const  item={
+    "kartik" :true,
+    "id":2,
+    "attendance":true
+}
+console.log(item["kartik"]);
