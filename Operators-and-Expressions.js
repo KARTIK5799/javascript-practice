@@ -40,4 +40,10 @@ console.log(a===b);//output:false (strict Equal to = no different types)
 console.log(a!=b);//output:true (Not equal to = type coercion is performed)
 console.log(a!==b);//output:true (Not equal to = no different types)
 
+//Logical Operators
+console.log(a<b && b>a);//output:true (Logical AND. Returns true if both operands are true)
+console.log(a<b && b<a);//output:false(both are not true thats why false.)
+console.log(a<b || b<a);//output:true(Logical OR. Returns true if at least one of the operands is true, otherwise false.)
+console.log(!(a > 5)); //output:true (Logical NOT. Returns the opposite of the operand. If it's true, it returns false. If it's false, it returns true.)
+console.log(!(a < 5)); //output:false (Logical NOT. Returns the opposite of the operand. If it's true, it returns false. If it's false, it returns true.)
 
