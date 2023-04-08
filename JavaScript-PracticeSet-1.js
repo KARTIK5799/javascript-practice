@@ -3,3 +3,5 @@ let a="kartik";
 let b=5;
 console.log(a+b);
 
+//Use the typeof keyword to see the data type of the variables in the previous question.
+console.log(typeof a);
