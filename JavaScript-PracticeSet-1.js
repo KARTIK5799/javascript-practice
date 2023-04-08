@@ -18,3 +18,10 @@ console.log(a1);
 //Try to add a new key to the previous const object.
 a1["name"]="joy";
 console.log(a1);
+
+//Create a JavaScript program to make a month dictionary like 1 = January, 2 = February, and so on.
+const cal={
+    1 :"January",
+    2 :"February"
+}
+console.log(cal[1]);
