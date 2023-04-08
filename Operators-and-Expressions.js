@@ -33,3 +33,11 @@ console.log(a);   // output: 3
 console.log(--a); // output: 2
 
 
+//Comparison operators are used to compare two values and return a Boolean value (true or false) depending on whether the comparison is true or false. Here are the most common comparison operators in JavaScript
+console.log(a>b);//output:false  (Greater than & less than)
+console.log(a==b);//output:false (Equal to = type coercion is performed)
+console.log(a===b);//output:false (strict Equal to = no different types)
+console.log(a!=b);//output:true (Not equal to = type coercion is performed)
+console.log(a!==b);//output:true (Not equal to = no different types)
+
+
