@@ -12,5 +12,9 @@ const a1={
     id:2,
     attendence:true
 }
+console.log(a1);
 //a1=43; it is not possible to change the value of constant object but we can change key values.
 
+//Try to add a new key to the previous const object.
+a1["name"]="joy";
+console.log(a1);
