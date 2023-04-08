@@ -22,6 +22,8 @@ console.log(a1);
 //Create a JavaScript program to make a month dictionary like 1 = January, 2 = February, and so on.
 const cal={
     1 :"January",
-    2 :"February"
+    2 :"February",
+    joy:"happy"
 }
 console.log(cal[1]);
+console.log(cal.joy);//we cannot use it with no.(1,2)it will show error.
