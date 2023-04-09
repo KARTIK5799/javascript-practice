@@ -12,3 +12,9 @@ let c = a.filter((x)=>{
 return x<=3
 })
 console.log(c);
+
+//reduce-function
+let d = a.reduce((x1,x2)=>{
+return(x1*x2);
+})
+console.log(d);
