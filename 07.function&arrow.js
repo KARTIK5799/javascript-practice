@@ -6,3 +6,10 @@ function sum(x,y){
     return (x+y);
 }
 console.log(sum(a,b));
+
+
+//arrow function
+const mul = (x,y) =>{
+    return (x*y); 
+}
+console.log(mul(a,b));
