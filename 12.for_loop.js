@@ -18,3 +18,9 @@ for (let item of a){
     (item*=2);
 }
 console.log(a);
+
+//for_in
+for(let x in a){
+    (x*=2);
+}
+console.log(a);
