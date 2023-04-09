@@ -12,3 +12,9 @@ a.forEach((x)=>{
    
 });
 console.log(a);
+
+//for-of
+for (let item of a){
+    (item*=2);
+}
+console.log(a);
