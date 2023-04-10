@@ -46,3 +46,20 @@ function random () {
              }
 }  
 
+
+
+//write a program to check you are eligible to drive or not
+function drive(){
+    let age = prompt("Enter your age")
+    age = Number.parseInt(age)
+
+    
+    const canDrive = (age) => {
+        return age >= 18 ? true : false
+      }
+         if(canDrive(age)){
+                alert("you can drive");
+         }else{
+                 alert("you  cant drive");
+         }
+}
