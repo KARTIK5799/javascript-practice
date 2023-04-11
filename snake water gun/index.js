@@ -27,4 +27,4 @@ const match = (arr, user)=>{
     }
   }
   let result = match(arr, user)
- console.log(`CPU:${arr} <br> User:${user} <br>The winner is: ${result.toUpperCase()}` )
+ console.log(`CPU:${arr} User:${user} <br>The winner is: ${result.toUpperCase()}` )
