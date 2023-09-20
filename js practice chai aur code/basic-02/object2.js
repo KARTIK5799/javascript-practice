@@ -9,5 +9,7 @@ const newObj={
 // console.log(newObj.userFullame.firstName);
 const obj1={1:"a",2:"b",3:"c"};
 const obj2={4:"d",5:"k"}
-const obj3=Object.assign({},obj1,obj2);
+// const obj3=Object.assign({},obj1,obj2); less use insted of this we have to use spread operater
+const obj3={...obj1,...obj2}; 
+
 console.log(obj3);
