@@ -6,6 +6,6 @@
    }
 )();
 
-(()=>{
-    console.log(`no`)
-})()
+((name)=>{
+    console.log(`no ${name}`)
+})('kartik')
