@@ -1,0 +1,113 @@
+/* Reset some default styles for better consistency */
+body, h1, h3, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color and font styles for the entire page */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+  }
+  
+  /* Style the container for the BMI calculator */
+  .container {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style the title */
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form elements */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Style the results container */
+  #results {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  /* Style the weight guide */
+  #weight-guide {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  #weight-guide h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #weight-guide p {
+    color: #777;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  /* Add responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    h1 {
+      font-size: 28px;
+    }
+    button {
+      font-size: 16px;
+    }
+  }
+  
